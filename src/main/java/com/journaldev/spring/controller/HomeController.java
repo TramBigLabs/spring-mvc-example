@@ -44,7 +44,7 @@ public class HomeController {
 //		return "user";
 //	}
 	
-	@RequestMapping(value = "/love", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String love() {
 		return "love";
 	}
